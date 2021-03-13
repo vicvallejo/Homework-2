@@ -12,7 +12,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-  
+  /*Header format for navigation bar */
   header {
     padding: 40px;
   }
@@ -26,7 +26,7 @@
      nav a:hover {
       color: #fff;
     }
-    
+  
 
      nav ul {
       min-width: 300px;
@@ -40,7 +40,7 @@
         text-align: center;
       }
 
-
+ /*abaout Víctor Vallejo section format*/
 #About {
     display: flex;
     flex-wrap: wrap;
@@ -66,7 +66,7 @@
         border-bottom-style: solid;
         border-bottom-color: black;
         }
-
+/* first homework formating */
 article     {   
       height: 300px;
       display: flex;
@@ -83,7 +83,12 @@ article     {
       width: 15%;
       }
 
-  
+
+    article h2 a:hover {
+        color: #fff;
+      }
+
+/* Portfolio section formating */  
 
     #Work {  
         display: flex;
@@ -100,60 +105,57 @@ article     {
           width: 20%;
         }
 
-
-        footer  { 
+/* contact section formating */  
+footer  { 
           padding: 40px;
           display: flex;
           flex-wrap: wrap;
         }
-
         
-      footer ul {
+  footer ul {
         display: flex;
         justify-content: space-evenly;
         min-width: 300px;
         list-style-type: none;
         }
 
-        footer a:hover {
+   footer a:hover {
           color: #fff;
         }
 
-      .float-left {
+
+
+.float-left {
           float: left;
           margin-right: 25px;
       }
       
-      .float-right {
+.float-right {
         float:right;
         margin-right: 25px;
     }
 
 
 
-        h2 {
-          font-size: 25px;
-          color:dodgerblue;
+h2 {
+    font-size: 25px;
+    color:dodgerblue;
         }
 
-        h2:hover {
-          color: #fff;
-        }
-        
 
-        
-        h3 {
+    
+       
+h3 {
           font-size: 15px;
           color:dodgerblue;
         }
 
-
-        h3:hover {
+h3:hover {
           color: #fff;
         }
 
-      
 
+        /* Adjusting formating for screen sise adjustments */
 @media screen and (max-width: 992px) {
           header {
             flex-direction:column;
@@ -168,8 +170,6 @@ article     {
             text-align: center;
           }
 
-
-
           #About div p  {
             font-size: inherit;
             color: dimgrey;
@@ -177,16 +177,4 @@ article     {
         }
 
 
-    
-        
-   
-@media screen and (max-width: 768px) {
-          nav {
-            background-color: #bb8588;
-          }
-        }
-        
- 
   
-
-
